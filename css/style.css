@@ -127,18 +127,20 @@ footer p a {
 }
 
 #weights, #cardio, #training {
-  width: 29%;
-  float: left;
   margin: 0 2%;
 }
 
-#exercises {
+.round {
+    border-radius: 8px;
+}
+
+/* #exercises {
   clear: left;
   border-top: 1px solid #000;
   border-bottom: 1px solid #000;
   background-color: #f2f2f2;
   padding: 1% 2%;
-}
+} 
 
 #exercises dt {
   font-weight: bold;
@@ -146,17 +148,19 @@ footer p a {
 
 #exercises dd {
   padding: 0.5% 1% 2% 0;
-}
+} */
 
 #contact {
   text-align: center;
 }
 
-#contact a {
+#contact .contact-email-link{
   color: #666600;
   text-decoration: none;
 }
 
 .map {
-  border: 8px solid #000;
+  border: 2px solid #000;
+    width: 95%;
+    height: 50%;
 }
